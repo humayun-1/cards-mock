@@ -3,6 +3,7 @@ import React from 'react';
 import { fetchCollection } from '../lib/collection';
 
 import './Collection.css';
+import { CardItem } from '../components/CardItem/CardItem';
 
 export const Collection = () => {
   const collection = fetchCollection();
@@ -11,5 +12,5 @@ export const Collection = () => {
   /**
    * Step 1: Render the card
    */
-  return <div />;
+  return <CardItem data={card} />;
 };
