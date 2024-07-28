@@ -1,0 +1,6 @@
+.add-cta-wrapper {
+  display: flex;
+  height: 170px;
+  background-color: rgb(173 180 192 / 8%);
+  align-items: center;
+}
